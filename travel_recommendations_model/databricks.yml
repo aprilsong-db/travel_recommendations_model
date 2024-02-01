@@ -2,13 +2,14 @@
 bundle:
   name: travel_recommendations_model
 
+# These are for any custom variables for use throughout the bundle.
 variables:
   experiment_name:
     description: Experiment name for the model training.
     default: /Users/${workspace.current_user.userName}/${bundle.target}-travel_recommendations_model-experiment
   model_name:
     description: Model name for the model training.
-    default: travel_recommendations_model-model
+    default: travel_recommendations_model
 
 include:
   # Assets folder contains ML artifact assets for the ml project that defines model and experiment

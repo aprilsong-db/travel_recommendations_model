@@ -48,8 +48,8 @@ resources:
   registered_models:
       model:
         name: ${var.model_name}
-        catalog_name: ${bundle.target}
-        schema_name: online
+        catalog_name: asong_dev
+        schema_name: travel
         <<: *grants
         depends_on:
           - resources.jobs.model_training_job.id
