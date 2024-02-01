@@ -49,7 +49,7 @@ resources:
       model:
         name: ${var.model_name}
         catalog_name: asong_dev
-        schema_name: travel
+        schema_name: travel_demo
         <<: *grants
         depends_on:
           - resources.jobs.model_training_job.id
