@@ -45,7 +45,7 @@ dbutils.widgets.text(
 # Feature table to store the computed features.
 dbutils.widgets.text(
     "output_table_name",
-    "asong_dev.travel_demo_demo.trip_pickup_features",
+    "asong_dev.travel_demo.trip_pickup_features",
     label="Output Feature Table Name",
 )
 

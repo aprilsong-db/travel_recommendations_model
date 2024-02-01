@@ -58,20 +58,20 @@ dbutils.widgets.text(
 )
 # Unity Catalog registered model name to use for the trained mode.
 dbutils.widgets.text(
-    "model_name", "asong_dev.travel_demo_demo.travel_recommendations_model", label="Full (Three-Level) Model Name"
+    "model_name", "asong_dev.travel_demo.travel_recommendations_model", label="Full (Three-Level) Model Name"
 )
 
 # Pickup features table name
 dbutils.widgets.text(
     "pickup_features_table",
-    "asong_dev.travel_demo_demo.trip_pickup_features",
+    "asong_dev.travel_demo.trip_pickup_features",
     label="Pickup Features Table",
 )
 
 # Dropoff features table name
 dbutils.widgets.text(
     "dropoff_features_table",
-    "asong_dev.travel_demo_demo.trip_dropoff_features",
+    "asong_dev.travel_demo.trip_dropoff_features",
     label="Dropoff Features Table",
 )
 

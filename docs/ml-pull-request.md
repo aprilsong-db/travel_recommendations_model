@@ -55,8 +55,8 @@ After merging your pull request, subsequent runs of the model training and batch
 jobs in staging and production will automatically use your updated ML code.
 
 You can track the state of the ML pipelines for the current project from the MLflow registered model UI. Links:
-* [Staging model in UC](https://e2-demo-field-eng.cloud.databricks.com/explore/data/models/staging/travel_recommendations_model/travel_recommendations_model-model)
-* [Prod model in UC](https://e2-demo-field-eng.cloud.databricks.com/explore/data/models/prod/travel_recommendations_model/travel_recommendations_model-model)
+* [Staging model in UC](https://e2-demo-field-eng.cloud.databricks.com/explore/data/models/staging/travel_recommendations_model/travel_recommendations_model)
+* [Prod model in UC](https://e2-demo-field-eng.cloud.databricks.com/explore/data/models/prod/travel_recommendations_model/travel_recommendations_model)
 . 
 
 In both the staging and prod workspaces, the MLflow registered model contains links to:
