@@ -22,9 +22,9 @@ resources:
             notebook_path: ../deployment/batch_inference/notebooks/BatchInference.py
             base_parameters:
               env: ${bundle.target}
-              input_table_name: asong_dev.travel_demo.feature_store_inference_input  # TODO: create input table for inference
-              output_table_name: asong_dev.travel_demo.predictions
-              model_name: asong_dev.travel_demo.${var.model_name}
+              input_table_name: asong_dev.travel_demo_demo.feature_store_inference_input  # TODO: create input table for inference
+              output_table_name: asong_dev.travel_demo_demo.predictions
+              model_name: asong_dev.travel_demo_demo.${var.model_name}
               # git source information of current ML asset deployment. It will be persisted as part of the workflow run
               git_source_info: url:${bundle.git.origin_url}; branch:${bundle.git.branch}; commit:${bundle.git.commit}
 
